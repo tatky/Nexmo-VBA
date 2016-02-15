@@ -1,5 +1,5 @@
 # Nexmo-VBA
-Nemo SMS API Utility for VBA
+Nexmo SMS API Utility for VBA
 
 ## Install
 Import ALL Files.
