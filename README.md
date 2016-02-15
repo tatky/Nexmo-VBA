@@ -13,11 +13,7 @@ Import ALL Files.
     Dim ret As Collection
     Set ret = client.send({From }, {To}, {Text})
 
-## send return Collection
-send Function return Collection.
-Collection include named Items.
-Named Key defined Const Module.
-
+## 3.Get response params
     Dim a as String
     a = ret.item(SMS_ResponseConst.KEY_ERROR_TEXT)
 
