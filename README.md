@@ -17,7 +17,7 @@ Usage
 Specify your credentials let to client's field.
 For example:
 
-```Visual Basic
+```VisualBasic
 Dim client As New SMS_Client
 client.letAPI_KEY = {Nexmo API Key}
 client.letAPI_SECRET = {Nexmo API Secret}
@@ -108,7 +108,7 @@ API Coverage
 Contributing
 ------------
 
-いない。。
+窶堋｢窶堙遺堋｢ﾂ。ﾂ。
 
 License
 -------
