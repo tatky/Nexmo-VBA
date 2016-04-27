@@ -66,9 +66,6 @@ Dim e164No as String
 e164No = getE164telNo({countryCode}, {telNo})
 ```
 
-
-
-
 API Coverage
 ------------
 
