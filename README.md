@@ -17,7 +17,7 @@ Usage
 Specify your credentials let to client's field.
 For example:
 
-```VisualBasic
+```VB.net
 Dim client As New SMS_Client
 client.letAPI_KEY = {Nexmo API Key}
 client.letAPI_SECRET = {Nexmo API Secret}
@@ -32,21 +32,21 @@ Examples
 
 Use [Nexmo's SMS API][doc_sms] to send an SMS message. 
 
-```VisualBasic
+```VB.net
 Dim ret As Collection
 Set ret = client.send({From}, {To}, {Text})
 ```
 
 ### Get send request response
 
-```VisualBasic
+```VB.net
 Dim hoge as String
 hoge = ret.item(SMS_ResponseConst.KEY_ERROR_TEXT)
 ```
 
 ### Set request's common patameter
 
-```VisualBasic
+```VB.net
 Dim opts As New Collection
 Set client.setDefaultRequestparam = opts
 opts.Add SMS_RequestConst.TYPE_UNICODE, SMS_RequestConst.KEY_TYPE
@@ -55,13 +55,13 @@ opts.Add SMS_RequestConst.TYPE_UNICODE, SMS_RequestConst.KEY_TYPE
 ### Utility
 
 #### EncodeUTF8
-```VisualBasic
+```VB.net
 Dim utf8Str as String
 utf8Str = encodeUtf8({baseString})
 ```
 
 #### E164
-```VisualBasic
+```VB.net
 Dim e164No as String
 e164No = getE164telNo({countryCode}, {telNo})
 ```
