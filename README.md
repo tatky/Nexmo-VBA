@@ -1,7 +1,7 @@
 Nexmo Client Library for Visual Basic for Application
 ===================================
 
-[Installation](#Installation) |  [Usage](#Usage) |  [Examples](#Examples) | [Coverage](#API-Coverage) | [Contributing](#Contributing)  
+[Installation](#installation) |  [Usage](#usage) |  [Examples](#examples)  |  [License](#license)  
 
 This is the VBA client library for use Nexmo's API. To use this, you'll need a Nexmo account. Sign up [for free
 at nexmo.com][signup].
@@ -65,48 +65,6 @@ utf8Str = encodeUtf8({baseString})
 Dim e164No as String
 e164No = getE164telNo({countryCode}, {telNo})
 ```
-
-API Coverage
-------------
-
-* Account
-    * [ ] Balance
-    * [ ] Pricing
-    * [ ] Settings
-    * [ ] Top Up
-    * [ ] Numbers
-* Number
-    * [ ] Search
-    * [ ] Buy
-    * [ ] Cancel
-    * [ ] Update
-* NumberInsight
-    * [ ] Request
-    * [ ] Response
-* NumberVerify
-    * [ ] Verify
-    * [ ] Check
-    * [ ] Search
-    * [ ] Control
-* Search
-    * [ ] Message
-    * [ ] Messages
-    * [ ] Rejections
-* Short Code
-    * [ ] 2FA
-    * [ ] Alerts
-    * [ ] Marketing
-* SMS
-    * [X] Send
-    * [ ] Receipt
-    * [ ] Inbound
-* Voice
-    * [ ] Call
-    * [ ] TTS/TTS Prompt
-    * [ ] SIP
-
-Contributing
-------------
 
 License
 -------
