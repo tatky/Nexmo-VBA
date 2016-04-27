@@ -32,21 +32,21 @@ Examples
 
 Use [Nexmo's SMS API][doc_sms] to send an SMS message. 
 
-```Visual Basic
+```VisualBasic
 Dim ret As Collection
 Set ret = client.send({From}, {To}, {Text})
 ```
 
 ### Get send request response
 
-```Visual Basic
+```VisualBasic
 Dim hoge as String
 hoge = ret.item(SMS_ResponseConst.KEY_ERROR_TEXT)
 ```
 
 ### Set request's common patameter
 
-```Visual Basic
+```VisualBasic
 Dim opts As New Collection
 Set client.setDefaultRequestparam = opts
 opts.Add SMS_RequestConst.TYPE_UNICODE, SMS_RequestConst.KEY_TYPE
@@ -55,13 +55,13 @@ opts.Add SMS_RequestConst.TYPE_UNICODE, SMS_RequestConst.KEY_TYPE
 ### Utility
 
 #### EncodeUTF8
-```Visual Basic
+```VisualBasic
 Dim utf8Str as String
 utf8Str = encodeUtf8({baseString})
 ```
 
 #### E164
-```Visual Basic
+```VisualBasic
 Dim e164No as String
 e164No = getE164telNo({countryCode}, {telNo})
 ```
@@ -107,8 +107,6 @@ API Coverage
 
 Contributing
 ------------
-
-‚¢‚È‚¢BB
 
 License
 -------
